@@ -19,4 +19,4 @@ Inicia los servicios de Docker.
   - Usuario: user@user.com
   - Contraseña: postgres
 
-Adicionalmente se puede acceder al CLI de los servicios con `docker-compose exec <servicio> bash` (ej: `docker-compose exec postgres sh`).
+Adicionalmente se puede acceder al CLI de los servicios con `docker-compose exec <servicio> bash` (ej: `docker-compose exec postgres bash`).
