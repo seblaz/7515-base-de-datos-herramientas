@@ -7,6 +7,7 @@ services:
           - POSTGRES_PASSWORD=postgres
         volumes:
           - postgres13-data:/var/lib/postgresql/data
+          - ./postgres-data:/postgres-data
         ports:
           - "5432:5432"
 
@@ -19,6 +20,7 @@ services:
           - PGADMIN_DEFAULT_PASSWORD=postgres
         volumes:
           - pgAdmin4.26-data:/var/lib/pgadmin
+          - ./pgadmin-data:/var/lib/pgadmin/storage/user_user.com
 
 volumes:
   pgAdmin4.26-data:
