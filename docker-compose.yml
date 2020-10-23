@@ -20,7 +20,7 @@ services:
           - PGADMIN_DEFAULT_PASSWORD=postgres
         volumes:
           - pgAdmin4.26-data:/var/lib/pgadmin
-          - ./pgadmin-data:/var/lib/pgadmin/storage/user_user.com
+          - ./pgadmin-data:/var/lib/pgadmin/storage
 
 volumes:
   pgAdmin4.26-data:
